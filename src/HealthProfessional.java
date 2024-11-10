@@ -3,21 +3,21 @@ public class HealthProfessional {
     private String name;
     private String specialty;
 
-    // 默认构造器
+    // Default constructor
     public HealthProfessional() {
         this.ID = 0;
         this.name = "";
         this.specialty = "";
     }
 
-    // 参数化构造器
+    // Parameterized constructor
     public HealthProfessional(int ID, String name, String specialty) {
         this.ID = ID;
         this.name = name;
         this.specialty = specialty;
     }
 
-    // 打印详细信息
+    // Print health professional details
     public void printDetails() {
         System.out.println("Health Professional Details:");
         System.out.println("ID: " + this.ID);
@@ -25,7 +25,7 @@ public class HealthProfessional {
         System.out.println("Specialty: " + this.specialty);
     }
 
-    // Getter 和 Setter 方法
+    // Getter and Setter methods
     public int getID() {
         return ID;
     }
