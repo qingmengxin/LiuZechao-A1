@@ -10,14 +10,14 @@ public class HealthProfessional {
         this.specialty = "";
     }
 
-    // 参数化构造器
+    // 带参数的构造器
     public HealthProfessional(int ID, String name, String specialty) {
         this.ID = ID;
         this.name = name;
         this.specialty = specialty;
     }
 
-    // 打印详细信息
+    // 打印健康专业人员的详细信息
     public void printDetails() {
         System.out.println("Health Professional Details:");
         System.out.println("ID: " + this.ID);
